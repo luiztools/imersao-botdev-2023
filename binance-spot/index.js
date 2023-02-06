@@ -1,5 +1,5 @@
 require("dotenv").config();
-const axios = require("axios");
+const axios = require("axios").default;
 const crypto = require("crypto");
 const WebSocket = require("ws");
 
